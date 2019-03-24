@@ -1,0 +1,9 @@
+str=process.version;
+str=process.argv;
+str=process.pid;
+str=process.title;
+str=process.platform;
+str=process.cwd();
+str=process.memoryUsage();
+str=process.uptime();
+console.log(str);
